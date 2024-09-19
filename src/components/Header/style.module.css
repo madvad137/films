@@ -1,0 +1,31 @@
+.header{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: #1A1F38;
+    font-family: "Inter", sans-serif;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.input{
+    background: rgba(196, 196, 196, 0.3);
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 58px;
+    width: 475px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.input::placeholder{
+    color: #fff;
+}
